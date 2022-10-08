@@ -1,0 +1,291 @@
+* {
+  margin: 0px;
+}
+
+
+.text-div {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 5px;
+
+}
+
+.text-div>p {
+  color: rgb(201, 245, 201);
+}
+
+
+.sp {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sp-p {
+  margin-right: 50px;
+}
+
+.form-design-div {
+  height: 656px;
+  width: 700px;
+  position: relative;
+  background-color: #42b0d8;
+
+
+}
+
+.image-design-div {
+  width: 700px;
+  height: 656px;
+  overflow: hidden;
+}
+
+/* @media (max-width:900px) {
+  .parent {
+    background-color: green
+  }
+
+  div {
+    width: auto;
+    height: auto;
+  }
+}
+
+.image-design-div {
+  width: auto;
+  height: auto;
+  flex-direction: column;
+} */
+
+
+
+
+
+.form-design1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  top: 10%;
+  margin: 0 0 0 60px;
+  /* background-color: #ed1717; */
+}
+
+.form-design2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  top: 10%;
+  margin: 0 0 0 30px;
+  padding: 10px;
+}
+
+.input-div {
+  margin-left: 35px;
+}
+
+.form-design2>p {
+  font-size: small;
+  color: red;
+}
+
+.image-design {
+  width: 100%;
+  height: 100%;
+}
+
+.main-design {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media (max-width:576px) {
+  .main-design {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+
+  .form-design-div {
+    width: 600px;
+
+  }
+
+  .form-design2 {
+    width: 70px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 230px;
+  }
+
+  .image-design-div {
+    width: 600px;
+    height: 300px;
+  }
+
+  * {
+    padding: 0px;
+    margin: 0 0px;
+  }
+
+  .image-design {
+    width: 100%;
+    height: 100%;
+  }
+
+
+}
+
+
+
+
+
+
+.navbtn {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.link-p {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.link-text {
+  text-align: center;
+  color: rgb(6, 72, 55);
+  font-size: medium;
+  font-weight: 200;
+  font-style: oblique;
+}
+
+.signup-link {
+  color: rgb(227, 67, 67);
+
+}
+
+.fa {
+  margin-right: 3px;
+}
+
+.label-text {
+  font-weight: 600;
+}
+
+.navbtn2 {
+  text-decoration: none;
+  width: 200px;
+  border-radius: 10px;
+  padding: 0px;
+  margin-top: 20px;
+  color: white;
+}
+
+.myanni {
+  text-align: center;
+  animation: myanni .7s cubic-bezier(.215, .61, .355, 1.000);
+}
+
+
+@keyframes myanni {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0
+  }
+
+  40% {
+    opacity: .6
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+/* .myButton {
+  box-shadow: 3px 4px 0px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  cursor: alias;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-shadow: 0px 1px 0px #e1e2ed;
+  margin-top: 10px;
+  width: 200px;
+  color: rgb(118, 58, 215);
+
+}
+
+
+
+
+
+. */
+
+.myButton:hover {
+  background: linear-gradient(to right, #61ccf3 5%, #391dc5 100%);
+  background-color: #b4b1ba;
+}
+
+.myButton:active {
+  position: relative;
+  top: 10px;
+}
+
+.myButton {
+  margin-top: 10px;
+  width: 250px;
+  border-radius: 20px 0px;
+  padding: 8px;
+  color: rgb(246, 232, 232);
+  background: linear-gradient(to right, #f04bca 5%, #391dc5 100%);
+  border: #899599;
+}
+
+.btn2 {
+  width: 515px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #899599;
+  background-color: white;
+}
+
+.btn3 {
+  margin-top: 10px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #899599;
+  background-color: white;
+  margin-top: 10px;
+
+}
+
+
+.btn3:hover {
+  background: linear-gradient(to right, #61ccf3 5%, #391dc5 100%);
+  background-color: #b4b1ba;
+  color: white;
+}
+
+.btn1 {
+  width: 515px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ed1717;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: white;
+  background-color: red;
+}
